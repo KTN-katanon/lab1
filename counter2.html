@@ -10,8 +10,8 @@
 
 <body>
     <div id="app">
-        <button @click="increase">Count is: {{ counter }}</button>
-        <button>Reset</button>
+        <button @click="increase()">Count is: {{ counter }}</button>
+        <button @click="counter=0">Reset</button>
     </div>
     <script>
         const { createApp, ref } = Vue;
