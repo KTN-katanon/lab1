@@ -1,0 +1,82 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build and artifact directories
+dist/
+build/
+out/
+*.class
+*.o
+*.so
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Coverage and reports
+coverage/
+*.lcov
+*.coverage
+*.cov
+
+# Package manager files
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Specific for Python projects
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Specific for Java projects
+*.jar
+*.war
+*.ear
+
+# Specific for Go projects
+bin/
+*.exe
+
+# Specific for C/C++ projects
+*.dSYM/
+*.exe
+*.out
+*.obj
+*.app
+
+# Specific for Rust projects
+target/
+
+# Specific for Laravel projects
+bootstrap/cache/
+storage/
+
+# Other
+*.iml
+*.ipr
+*.iws
